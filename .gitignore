@@ -1,0 +1,32 @@
+# Secrets
+*.key
+secrets.*
+.env
+.env.*
+!.env.example
+mac/**/.env
+windows/config.json
+
+# Python / desktop runtimes
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.pyc
+
+# Mac run artifacts (may contain private chat)
+mac/results/
+mac/debug-captures/
+mac/.ocr-cache/
+mac/build/
+mac/dist/
+
+# Windows build
+windows/build/
+windows/dist/
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
